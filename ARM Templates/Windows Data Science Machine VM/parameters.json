@@ -1,0 +1,60 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "northeurope"
+        },
+        "virtualMachineName": {
+            "value": "nrDataScience1"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_A0"
+        },
+        "adminUsername": {
+            "value": "nradmin"
+        },
+        "virtualNetworkName": {
+            "value": "nrDataScience-vnet"
+        },
+        "networkInterfaceName": {
+            "value": "nrdatascience1182"
+        },
+        "networkSecurityGroupName": {
+            "value": "nrDataScience1-nsg"
+        },
+        "adminPassword": {
+            "value": null
+        },
+        "storageAccountName": {
+            "value": "nrdatasciencedisks194"
+        },
+        "storageAccountType": {
+            "value": "Standard_LRS"
+        },
+        "diagnosticsStorageAccountName": {
+            "value": "nrdatasciencediag482"
+        },
+        "diagnosticsStorageAccountType": {
+            "value": "Standard_LRS"
+        },
+        "diagnosticsStorageAccountId": {
+            "value": "Microsoft.Storage/storageAccounts/nrdatasciencediag482"
+        },
+        "addressPrefix": {
+            "value": "10.0.16.0/24"
+        },
+        "subnetName": {
+            "value": "default"
+        },
+        "subnetPrefix": {
+            "value": "10.0.16.0/24"
+        },
+        "publicIpAddressName": {
+            "value": "nrDataScience1-ip"
+        },
+        "publicIpAddressType": {
+            "value": "Dynamic"
+        }
+    }
+}
